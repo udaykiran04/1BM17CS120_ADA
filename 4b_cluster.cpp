@@ -8,7 +8,7 @@ int row[]={-1, -1, -1, 0, 0, 1, 1, 1 };
 int col[]={-1, 0, 1, -1, 1, -1, 0, 1 }; 
 bool isSafe(int i,int j)
 {
-	if(i>=0 && i<n && j>=0 && j<n)return true;
+	if(i>=0 && i<n && j>=0 && j<m)return true;
 	return false;
 }
 void dfs(int i,int j)
