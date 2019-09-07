@@ -23,7 +23,7 @@ void dfs(int i,int j)
 int main()
 {
 	int count=0;
-	cout<<"Enter the size of the graph\n";
+	cout<<"Enter the size of the matrix\n";
 	cin>>n;
 	cin>>m;
 	cout<<"Enter the adjacency matrix\n";
